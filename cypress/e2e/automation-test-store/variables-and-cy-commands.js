@@ -2,7 +2,7 @@
 /// <reference types= "cypress-xpath" />
 
 describe("Verifing variables, cypress commands and jquery commands", () =>{
-    it("Navigating to specific product page", () => {
+    it("Navigating to specific thr product page", () => {
 
     
     cy.visit("https://www.automationteststore.com/");
