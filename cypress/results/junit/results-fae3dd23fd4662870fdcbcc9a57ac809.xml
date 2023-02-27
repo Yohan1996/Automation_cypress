@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.708" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-02-22T04:03:21" tests="0" file="cypress\e2e\webdriver-uni\select-dropdown-list.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Verify checkboxes" timestamp="2023-02-22T04:03:21" tests="1" time="8.675" failures="1">
+    <testcase name="Verify checkboxes Check and validate checkbox" time="0.000" classname="Check and validate checkbox">
+      <failure message="Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `&lt;option&gt;` with value, index, or text matching: `testing`
+
+https://on.cypress.io/select" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value, index, or text matching: `testing`
+
+https://on.cypress.io/select
+    at getOptions (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:133413:80)
+    at tryCatcher (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:8914:23)
+    at Promise.attempt.Promise.try (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:6188:29)
+    at retryOptions (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:133445:67)
+    at tryCatcher (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:8914:23)
+    at Promise.attempt.Promise.try (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:6188:29)
+    at whenStable (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:146696:65)
+    at <unknown> (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:146137:14)
+    at tryCatcher (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:8914:23)
+    at Promise._settlePromiseFromHandler (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:6849:31)
+    at Promise._settlePromise (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:6906:18)
+    at Promise._settlePromise0 (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:6951:10)
+    at Promise._settlePromises (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:7031:18)
+    at Promise._fulfill (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:6975:18)
+    at <unknown> (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:8589:46)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/webdriver-uni/select-dropdown-list.js:8:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

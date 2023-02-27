@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.203" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-02-22T04:03:10" tests="0" file="cypress\e2e\webdriver-uni\radiobuttons.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Verify checkboxes" timestamp="2023-02-22T04:03:10" tests="1" time="5.162" failures="0">
+    <testcase name="Verify checkboxes Check and validate checkbox" time="5.140" classname="Check and validate checkbox">
+    </testcase>
+  </testsuite>
+</testsuites>

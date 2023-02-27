@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.885" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-02-22T04:03:36" tests="0" file="cypress\e2e\other\twoURL.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cypress web security" timestamp="2023-02-22T04:03:36" tests="1" time="13.849" failures="0">
+    <testcase name="Cypress web security Origin command" time="13.827" classname="Origin command">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.946" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-02-22T03:59:11" tests="0" file="cypress\e2e\automation-test-store\variables-and-cy-commands.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Verifing variables, cypress commands and jquery commands" timestamp="2023-02-22T03:59:12" tests="1" time="12.904" failures="0">
+    <testcase name="Verifing variables, cypress commands and jquery commands Validate properties of the Contact Us Page" time="8.250" classname="Validate properties of the Contact Us Page">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="75.359" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-02-24T03:44:45" tests="0" file="cypress\e2e\automation-test-store\Click-commands.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Inspect Automation Test Store items using chain of commands" timestamp="2023-02-24T03:44:45" tests="3" time="75.314" failures="0">
+    <testcase name="Inspect Automation Test Store items using chain of commands Click on the first item using item header" time="16.797" classname="Click on the first item using item header">
+    </testcase>
+    <testcase name="Inspect Automation Test Store items using chain of commands Click on the first item using item text" time="28.472" classname="Click on the first item using item text">
+    </testcase>
+    <testcase name="Inspect Automation Test Store items using chain of commands Click on the first item using item index" time="25.255" classname="Click on the first item using item index">
+    </testcase>
+  </testsuite>
+</testsuites>

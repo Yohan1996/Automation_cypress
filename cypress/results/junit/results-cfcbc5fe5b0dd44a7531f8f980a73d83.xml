@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.224" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-02-22T04:02:43" tests="0" file="cypress\e2e\webdriver-uni\js-alerts.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Hanmdle js alerts" timestamp="2023-02-22T04:02:43" tests="1" time="4.193" failures="0">
+    <testcase name="Hanmdle js alerts Validate js confirm alert box using a stub" time="4.128" classname="Validate js confirm alert box using a stub">
+    </testcase>
+  </testsuite>
+</testsuites>

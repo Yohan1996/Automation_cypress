@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.457" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-02-22T04:01:04" tests="0" file="cypress\e2e\webdriver-uni\contct-us.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test Contact Us form via WebdriverUni" timestamp="2023-02-22T04:01:04" tests="1" time="5.395" failures="0">
+    <testcase name="Test Contact Us form via WebdriverUni Should not be able to sumbit a successful submission via contact us form as all fields are required" time="5.307" classname="Should not be able to sumbit a successful submission via contact us form as all fields are required">
+    </testcase>
+  </testsuite>
+</testsuites>
