@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.347" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-03-01T05:11:03" tests="0" file="cypress\e2e\webdriver-uni\mouse-actions.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test mouse actions" timestamp="2023-03-01T05:11:03" tests="4" time="27.312" failures="1">
+    <testcase name="Test mouse actions Scroll element into view" time="5.549" classname="Scroll element into view">
+    </testcase>
+    <testcase name="Test mouse actions I should be able to drag and drop a draggable item" time="1.142" classname="I should be able to drag and drop a draggable item">
+    </testcase>
+    <testcase name="Test mouse actions I should be able to perform a double mouse click" time="0.000" classname="I should be able to perform a double mouse click">
+      <failure message="`cy.visit()` failed trying to load:
+
+http://www.webdriveruniversity.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: read ECONNRESET
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+http://www.webdriveruniversity.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: read ECONNRESET
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at <unknown> (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:138219:82)
+    at visitFailedByErr (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:137611:12)
+    at <unknown> (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:138218:11)
+    at tryCatcher (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:8914:23)
+    at Promise._settlePromiseFromHandler (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:6849:31)
+    at Promise._settlePromise (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:6906:18)
+    at Promise._settlePromise0 (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:6951:10)
+    at Promise._settlePromises (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:7027:18)
+    at _drainQueueStep (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:3621:12)
+    at _drainQueue (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:3614:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:3630:5)
+    at Async.drainQueues (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:3500:14)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/webdriver-uni/mouse-actions.js:21:11)
+
+From Node.js Internals:
+  Error: read ECONNRESET
+      at TCP.onStreamRead (node:internal/stream_base_commons:217:20)]]></failure>
+    </testcase>
+    <testcase name="Test mouse actions I should be able hold down the left mouse click button on a given element" time="3.975" classname="I should be able hold down the left mouse click button on a given element">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.022" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-03-01T05:09:52" tests="0" file="cypress\e2e\webdriver-uni\dates.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test Datepicker via webdriveruni" timestamp="2023-03-01T05:09:52" tests="1" time="9.991" failures="0">
+    <testcase name="Test Datepicker via webdriveruni Select date from the datepicker" time="9.836" classname="Select date from the datepicker">
+    </testcase>
+  </testsuite>
+</testsuites>

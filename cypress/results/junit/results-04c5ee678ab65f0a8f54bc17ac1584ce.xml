@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.490" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-03-01T05:21:23" tests="0" file="cypress\e2e\webdriver-uni\handling-data-from-table.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Handling data via webdriveruni" timestamp="2023-03-01T05:21:23" tests="2" time="7.452" failures="0">
+    <testcase name="Handling data via webdriveruni Calculate and assert the total age of all users" time="6.141" classname="Calculate and assert the total age of all users">
+    </testcase>
+    <testcase name="Handling data via webdriveruni Calculate and assert the age of a given user based on last name" time="1.289" classname="Calculate and assert the age of a given user based on last name">
+    </testcase>
+  </testsuite>
+</testsuites>

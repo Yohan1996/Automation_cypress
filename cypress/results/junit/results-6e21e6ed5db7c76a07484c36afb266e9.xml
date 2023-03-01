@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.230" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-03-01T05:10:30" tests="0" file="cypress\e2e\webdriver-uni\hooks.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Verify checkboxes" timestamp="2023-03-01T05:10:30" tests="2" time="7.210" failures="0">
+    <testcase name="Verify checkboxes Check and validate checkbox" time="5.801" classname="Check and validate checkbox">
+    </testcase>
+    <testcase name="Verify checkboxes Uncheck and validate checkbox" time="1.391" classname="Uncheck and validate checkbox">
+    </testcase>
+  </testsuite>
+</testsuites>

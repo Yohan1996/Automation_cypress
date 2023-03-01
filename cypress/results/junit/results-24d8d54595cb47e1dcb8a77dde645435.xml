@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.684" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-03-01T05:09:18" tests="0" file="cypress\e2e\webdriver-uni\contact-us-2-fixtures.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test Contact Us form via WebdriverUni" timestamp="2023-03-01T05:09:18" tests="1" time="4.638" failures="1">
+    <testcase name="Test Contact Us form via WebdriverUni Should be able to sumbit a successful submission via contact us form" time="0.000" classname="Should be able to sumbit a successful submission via contact us form">
+      <failure message="`cy.type()` can only accept a string or number. You passed in: `undefined`
+
+https://on.cypress.io/type" type="CypressError"><![CDATA[CypressError: `cy.type()` can only accept a string or number. You passed in: `undefined`
+
+https://on.cypress.io/type
+    at Context.type (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:134296:76)
+    at wrapped (http://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:151098:19)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/webdriver-uni/contact-us-2-fixtures.js:21:33)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
