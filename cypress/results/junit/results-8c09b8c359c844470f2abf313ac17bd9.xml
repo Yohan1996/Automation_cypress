@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.089" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-03-02T08:08:42" tests="0" file="cypress\e2e\webdriver-uni\costom-command-contact.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test Contact Us form via WebdriverUni" timestamp="2023-03-02T08:08:42" tests="2" time="10.058" failures="0">
+    <testcase name="Test Contact Us form via WebdriverUni Should be able to sumbit a successful submission via contact us form" time="6.708" classname="Should be able to sumbit a successful submission via contact us form">
+    </testcase>
+    <testcase name="Test Contact Us form via WebdriverUni Should not be able to submit a successful submission via contact us form as all fields are required" time="3.317" classname="Should not be able to submit a successful submission via contact us form as all fields are required">
+    </testcase>
+  </testsuite>
+</testsuites>
